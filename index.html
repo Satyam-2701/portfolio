@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+
+    <html>
+
+    <head>
+        <!-- Import Tailwind CSS CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css">
+        <!-- Import Font Awesome CDN for icons -->
+        <script src="https://kit.fontawesome.com/2e7d1698d6.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <!-- Create a container for the website -->
+    <div class="container mx-auto px-4">
+        <!-- Create a header section with a logo and a navigation bar -->
+        <header class="flex items-center justify-between py-4">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <h1 class="text-xl font-bold text-gray-800">Satyam Mishra</h1>
+            </div>
+            <!-- Navigation bar -->
+            <nav class="flex space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-gray-800">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-gray-800">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+            </nav>
+        </header>
+        <!-- Create a main section with an introduction and a call to action -->
+        <main class="py-8">
+            <!-- Introduction -->
+            <div
+                class="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8 space-y-4 md:space-y-0">
+                <!-- Profile picture -->
+                <!-- Greeting and summary -->
+                <div class="text-center md:text-left">
+                    <h2 class="text-3xl font-bold text-gray-800">Hi, I'm Satyam Mishra</h2>
+                    <p class="text-lg text-gray-600 mt-2">I'm a software engineer with experience in Web development.
+                        I'm passionate about creating web applications using HTML, Tailwind CSS and JavaScript. I'm
+                        always eager to learn new technologies and improve my skills.</p>
+                    <!-- Call to action -->
+                    <div class="mt-4">
+                        <a href="#projects"
+                            class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">See My
+                            Projects</a>
+                        <a href="#contact"
+                            class="inline-block bg-gray-200 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-300 ml-2">Hire
+                            Me</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Create an about section with some personal details and hobbies -->
+        <section id="about" class="py-8 bg-gray-100">
+            <!-- Section title -->
+            <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">About Me</h3>
+            <!-- Section content -->
+            <div
+                class="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8 space-y-4 md:space-y-0">
+                <!-- Personal details -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <p class="text-lg text-gray-600">I'm a software engineer based in Dombivali, Maharashtra, India. I
+                        have a bachelor's degree in computer science from Mumbai University. I love creating web
+                        applications that are user-friendly, responsive and functional.</p>
+                    <p class="text-lg text-gray-600 mt-2">I have no experience in Web development, but I'm willing to
+                        learn and adapt to any new challenges. I have experience in HTML, Tailwind CSS, JavaScript,
+                        React, Node.js, MongoDB and Firebase. I also have some knowledge of Python, C#, SQL and Git.</p>
+                    <p class="text-lg text-gray-600 mt-2">When I'm not coding, I enjoy reading books, playing video
+                        games, watching movies and spending time with my family and friends.</p>
+                </div>
+                <!-- Hobbies -->
+                <div class="w-full md:w-1/2 grid grid-cols-3 gap-4">
+                    <!-- Book icon -->
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-book text-4xl text-blue-500"></i>
+                        <span class="text-gray-600 mt-2">Reading</span>
+                    </div>
+                    <!-- Gamepad icon -->
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-gamepad text-4xl text-blue-500"></i>
+                        <span class="text-gray-600 mt-2">Gaming</span>
+                    </div>
+                    <!-- Film icon -->
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-film text-4xl text-blue-500"></i>
+                        <span class="text-gray-600 mt-2">Movies</span>
+                    </div>
+                    <!-- Music icon -->
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-music text-4xl text-blue-500"></i>
+                        <span class="text-gray-600 mt-2">Music</span>
+                    </div>
+                    <!-- Travel icon -->
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-plane text-4xl text-blue-500"></i>
+                        <span class="text-gray-600 mt-2">Travel</span>
+                    </div>
+                    <!-- Coffee icon -->
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-coffee text-4xl text-blue-500"></i>
+                        <span class="text-gray-600 mt-2">Coffee</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Create a skills section with some technical skills and a progress bar -->
+        <section id="skills" class="py-8">
+            <!-- Section title -->
+            <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">My Skills</h3>
+            <!-- Section content -->
+            <div class="w-full md:w-3/4 mx-auto">
+                <!-- HTML skill -->
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-lg text-gray-600">HTML</span>
+                    <span class="text-lg text-gray-600">90%</span>
+                </div>
+                <!-- HTML progress bar -->
+                <div class="bg-gray-200 h-4 rounded-full">
+                    <div class="bg-blue-500 h-full w-9/12 rounded-full"></div>
+                </div>
+                <!-- Tailwind CSS skill -->
+                <div class="flex items-center justify-between mb-2 mt-4">
+                    <span class="text-lg text-gray-600">Tailwind CSS</span>
+                    <span class="text-lg text-gray-600">80%</span>
+                </div>
+                <!-- Tailwind CSS progress bar -->
+                <div class="bg-gray-200 h-4 rounded-full">
+                    <div class="bg-blue-500 h-full w-8/12 rounded-full"></div>
+                </div>
+                <!-- JavaScript skill -->
+                <div class="flex items-center justify-between mb-2 mt-4">
+                    <span class="text-lg text-gray-600">JavaScript</span>
+                    <span class="text-lg text-gray-600">70%</span>
+                </div>
+                <!-- JavaScript progress bar -->
+                <div class="bg-gray-200 h-4 rounded-full">
+                    <div class="bg-blue-500 h-full w-7/12 rounded-full"></div>
+                </div>
+                <!-- React skill -->
+                <div class="flex items-center justify-between mb-2 mt-4">
+                    <span class="text-lg text-gray-600">React</span>
+                    <span class="text-lg text-gray-600">40%</span>
+                </div>
+                <!-- React progress bar -->
+                <div class="bg-gray-200 h-4 rounded-full">
+                    <div class="bg-blue-500 h-full w-5/12 rounded-full"></div>
+                </div>
+
+
+                <!-- contact us section  -->
+
+                <!-- Create a contact section with a form and some social media links -->
+                <section id="contact" class="my-8 py-8 bg-gray-100">
+                    <!-- Section title -->
+                    <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">Contact Me</h3>
+                    <!-- Section content -->
+                    <div
+                        class="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8 space-y-4 md:space-y-0">
+                        <!-- Contact form -->
+                        <div class="w-full md:w-1/2">
+                            <form action="#" method="POST" class="bg-white p-4 rounded-md shadow-md">
+                                <!-- Name input -->
+                                <div class="mb-4">
+                                    <label for="name" class="text-gray-600">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name"
+                                        class="w-full border border-gray-200 px-2 py-1 rounded-md focus:outline-none focus:border-blue-500">
+                                </div>
+                                <!-- Email input -->
+                                <div class="mb-4">
+                                    <label for="email" class="text-gray-600">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                                        class="w-full border border-gray-200 px-2 py-1 rounded-md focus:outline-none focus:border-blue-500">
+                                </div>
+                                <!-- Message input -->
+                                <div class="mb-4">
+                                    <label for="message" class="text-gray-600">Message</label>
+                                    <textarea id="message" name="message" placeholder="Enter your message" rows="4"
+                                        class="w-full border border-gray-200 px-2 py-1 rounded-md focus:outline-none focus:border-blue-500"></textarea>
+                                </div>
+                                <!-- Submit button -->
+                                <div class="mb-4">
+                                    <button type="submit"
+                                        class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send
+                                        Message</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Social media links -->
+                        <div class="w-full md:w-1/2 flex flex-col items-center">
+                            <!-- Social media title -->
+                            <h4 class="text-lg font-bold text-gray-800 mb-2">Follow Me On</h4>
+                            <!-- Social media icons -->
+                            <div class="flex space-x-4">
+                                <!-- Facebook icon -->
+                                <a href="#" class="text-blue-500 hover:text-blue-600"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <!-- Twitter icon -->
+                                <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+                                <!-- Instagram icon -->
+                                <a href="#" class="text-blue-500 hover:text-blue-600"><i
+                                        class="fab fa-Instagram"></i></a>
+                            </div>
+                        </div>
+                </section>
+
+                <!-- footer section  -->
+                <!-- Create a footer section with some information and a back to top button -->
+                <footer class="py-4 bg-gray-800 text-white">
+                    <!-- Footer content -->
+                    <div class=" p-10 flex items-center justify-between">
+                        <!-- Footer information -->
+                        <div class="flex items-center">
+                            <!-- Logo -->
+                            <!-- Name -->
+                            <span class="text-xl font-bold">Satyam Mishra</span>
+                            <!-- Year -->
+                            <span class="ml-4">© All rights reserved by Satyam Mishra | 2023</span>
+                        </div>
+                        <!-- Back to top button -->
+                        <div>
+                            <a href="#top" class="flex items-center space-x-2 hover:text-blue-500">
+                                <!-- Arrow up icon -->
+                                <i class="fas fa-arrow-up"></i>
+                                <!-- Text -->
+                                <span>Back to Top</span>
+                            </a>
+                        </div>
+                    </div>
+                </footer>
